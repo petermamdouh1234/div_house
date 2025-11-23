@@ -2,6 +2,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import img40 from "../assets/800.jpg";
+import img41 from "../assets/131.jpeg";
+import img42 from "../assets/177.jpg";
 
 const projects = [
   { title: "E-Commerce Platform", description: "Modern online store with advanced filtering and checkout system", tags: ["React", "Node.js", "Stripe", "MongoDB"], image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop", link: "https://ruehaya.com/?pb=0" },
@@ -9,7 +12,7 @@ const projects = [
   title: "Fashion",
   description: "Patient management system with appointment scheduling",
   tags: ["Next.js", "PostgreSQL", "TypeScript", "Tailwind"],
-  image: "/src/assets/131.jpeg",
+  image: img41,
   link: "https://sevenegy.com/"
 },
 
@@ -20,7 +23,7 @@ const projects = [
   title: "The Circle of Forgotten Knowledge.",
   description: "Workout tracking and nutrition planning mobile application",
   tags: ["React Native", "Node.js", "MongoDB", "Redux"],
-  image: "/src/assets/177.jpg",
+  image:img42,
   link: "https://per-hours.netlify.app/"
 },
 
@@ -30,7 +33,7 @@ const projects = [
   title: "Financial Dashboard",
   description: "Investment tracking and portfolio management system",
   tags: ["React", "Python", "FastAPI", "PostgreSQL"],
-  image: "/src/assets/800.jpg",
+  image: img40,
   link: "https://chillhousetattoo.com/"
 },
 
