@@ -1,46 +1,53 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
+// 🔥 Correct image paths (go up one folder)
+import img1 from "../assets/8.png";
+import img2 from "../assets/7.jpg";
+import img3 from "../assets/6.jpg";
+import img4 from "../assets/5.jpg";
+import img5 from "../assets/4.jpg";
+import img6 from "../assets/3.jpg";
+import img7 from "../assets/10.jpg";
+
 const team = [
   {
     name: "Peter Mamdouh",
     role: "Founder & CEO",
-      image: "/src/assets/8.png",
-    bio: "Full-stack expert specializing in React, Node.js, and modern web technologies, Ecommerce websites ",
+    image: img7,
+    bio: "Full-stack expert specializing in React, Node.js, and modern web technologies, Ecommerce websites",
   },
   {
     name: "Nour Yasser",
     role: "Developer",
-     image: "/src/assets/7.jpg",
+    image: img2,
     bio: "Frontend specialist with expertise in building scalable web applications",
   },
   {
     name: "Fahd Ali",
     role: "Developer",
-      image: "/src/assets/6.jpg",
-    bio: "Full-stack , mobile app specializing in scalable architectures, modern frameworks, and smooth cross-platform user experiences.",
+    image: img3,
+    bio: "Full-stack, mobile app specializing in scalable architectures, modern frameworks, and smooth cross-platform user experiences.",
   },
   {
     name: "Fady George",
     role: "Sales Manager",
-      image: "/src/assets/5.jpg",
+    image: img4,
     bio: "Dedicated to driving sales and building client relationships",
   },
   {
     name: "Mina Farouk",
     role: "Account Manager",
-    image: "/src/assets/4.jpg",
+    image: img5,
     bio: "Dedicated to connecting clients with perfect digital solutions",
   },
   {
     name: "Zein Fawzy",
     role: "Senior Graphic Designer",
-     image: "/src/assets/3.jpg",
+    image: img6,
     bio: "Creative designer with expertise in visual storytelling and branding",
   },
- 
 ];
-
 const Team = () => {
   return (
     <section id="team" className="py-16 md:py-24 bg-card">
