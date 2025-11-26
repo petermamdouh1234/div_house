@@ -26,7 +26,7 @@ const team = [
   {
     name: "Fahd Ali",
     role: "Developer",
-    image: img3,
+    image: img6,
     bio: "Full-stack, mobile app specializing in scalable architectures, modern frameworks, and smooth cross-platform user experiences.",
   },
   {
@@ -44,7 +44,7 @@ const team = [
   {
     name: "Zein Fawzy",
     role: "Senior Graphic Designer",
-    image: img6,
+    image: img3,
     bio: "Creative designer with expertise in visual storytelling and branding",
   },
 ];

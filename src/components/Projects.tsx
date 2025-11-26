@@ -10,8 +10,8 @@ const projects = [
   { title: "E-Commerce Platform", description: "Modern online store with advanced filtering and checkout system", tags: ["React", "Node.js", "Stripe", "MongoDB"], image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop", link: "https://ruehaya.com/?pb=0" },
  {
   title: "Fashion",
-  description: "Patient management system with appointment scheduling",
-  tags: ["Next.js", "PostgreSQL", "TypeScript", "Tailwind"],
+  description: "we helping in design only",
+  tags: [ "Figma"],
   image: img41,
   link: "https://sevenegy.com/"
 },
