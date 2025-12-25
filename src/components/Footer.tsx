@@ -52,7 +52,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/divhouse/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-secondary rounded-lg hover:bg-primary/20 transition-all duration-300 hover:scale-110"
